@@ -21,7 +21,7 @@ function slider()
 {
 	numer++; if(numer>4) numer=1;
 	var plik = "<img src=\"slajdy/slajd"+ numer + ".jpg\"/>";
-	document.getElementById("zmiana").innerHTML=plik;
+	$("#zmiana")[0].innerHTML=plik;
 
 	$("#zmiana").fadeIn(500);
 
